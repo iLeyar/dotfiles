@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Emmet",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Material Theme",
+		"Monokai Extended",
+		"Package Control",
+		"PackageResourceViewer",
+		"SideBarEnhancements",
+		"Solarized Color Scheme",
+		"SublimeLinter",
+		"SublimeTmpl",
+		"Theme - Soda SolarizedDark"
+	]
+}

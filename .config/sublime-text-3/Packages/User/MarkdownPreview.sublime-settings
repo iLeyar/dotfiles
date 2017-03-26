@@ -1,0 +1,6 @@
+{
+    "enabled_parsers": ["markdown"],
+    "github_mode": "gfm",
+    "enabled_parsers": ["github"],
+    "build_action": "browser"
+}

@@ -55,7 +55,7 @@ plugins=(git rsync vundle npm nvm)
 
 # User configuration
 
-  export PATH="/home/leyar/openwrt/openwrt/staging_dir/host/bin:/home/leyar/openwrt/openwrt/staging_dir/toolchain-mips_34kc_gcc-5.3.0_musl-1.1.14/bin:/home/leyar/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -118,7 +118,7 @@ alias pacll='sudo pacman -Qqm'		#list all packages which were locally installed
 alias pacf='sudo pacman -Ql'		#list all files installed by a given package
 alias pacc='sudo pacman -Sc'		#delete all not currently installed package files
 
-eval `dircolors ~/.dircolors-solarized/dircolors.256dark`
+eval `dircolors ~/.dir_colors/dircolors.256dark`
 
 if [[ ($COLORTERM == xfce4-terminal || $(cat /proc/$PPID/cmdline) == *xfce4-terminal* )
 		&& $TERM != screen* ]]; then

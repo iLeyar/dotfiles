@@ -1,0 +1,11 @@
+{
+	"markdown": {
+        "extension": "md",
+        "syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.tmLanguage"
+    },
+    "attr": {
+	"author": "Leyar",
+	"email": "leyar.me@gmail.com",
+	"link": "https://www.ileyar.com"
+	}
+}
