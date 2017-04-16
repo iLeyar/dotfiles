@@ -117,6 +117,7 @@ alias paclocs='pacman -Qs'		#search packages from local
 alias pacll='sudo pacman -Qqm'		#list all packages which were locally installed
 alias pacf='sudo pacman -Ql'		#list all files installed by a given package
 alias pacc='sudo pacman -Sc'		#delete all not currently installed package files
+alias config='/usr/bin/git --git-dir=/home/leyar/.cfg/ --work-tree=/home/leyar'
 
 eval `dircolors ~/.dir_colors/dircolors.256dark`
 
@@ -129,4 +130,3 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # export ALL_PROXY="http://127.0.0.1:4411"
-alias config='/usr/bin/git --git-dir=/home/leyar/.cfg/ --work-tree=/home/leyar'

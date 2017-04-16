@@ -153,14 +153,11 @@ function! s:align()
 endfunction
 
 " airline
-"let g:airline_powerline_fonts = 1
-"let g:airline_left_sep='>'
+let g:airline_powerline_fonts = 1
 let g:airline_detect_modified=1
 let g:airline_detect_paste=1
 let g:airline_detect_iminsert=0
 let g:airline_inactive_collapse=1
-" let g:airline_section_b = '%{strftime("%c")}'
-" let g:airline_section_y = 'BN: %{bufnr("%")}'
 
 " YouCompleteMe
 let g:ycm_error_symbol = '>>'
